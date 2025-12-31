@@ -1,0 +1,14 @@
+# Requirements for Trapped Modes Wave Simulator
+# Python 3.8+
+
+# Core scientific computing
+numpy>=1.24.0
+
+# Plotting and visualization
+matplotlib>=3.7.0
+
+# GUI toolkit (usually included with Python)
+# tkinter is part of standard library, no pip install needed
+
+# For GIF export (included with matplotlib)
+Pillow>=9.5.0
