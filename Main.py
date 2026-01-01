@@ -24,7 +24,11 @@ amplitud_en_coordenada = None
 root = tk.Tk()
 root.title("Interfaz")
 root.geometry("1400x700")
-root.iconbitmap(r"trappedmodes\Source\Logo3.ico")
+
+icon_path = os.path.join(os.path.dirname(__file__), "Source", "Logo3.ico")
+if os.path.exists(icon_path):
+    root.iconbitmap(icon_path)
+
 root.config(bg='#bababa')
 
 # Variables globales
